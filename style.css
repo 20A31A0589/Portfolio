@@ -1,0 +1,146 @@
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+.about_content-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+h2{
+    color:#090781;
+    align:"text-center";
+
+}
+.temp{
+    color:#090781;
+    text-indent: 50px;
+}
+form { 
+    margin: 0 auto; 
+    width:500px;
+    }
+.skills_skill{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 500;
+    color: rgba(1, 17, 2, 0.604);
+}
+
+.dec{
+    text-decoration: none;
+}
+.projects_row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    margin-bottom: 11rem;
+    border-radius: 50%;
+}
+.projects_row-img{
+    border: #666;
+    border-radius:5% ;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: palevioletred;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(35, 240, 134);
+    border-radius: 5%;
+}
+.card1{
+    height: 50vh;
+    border:2px solid rgba(0, 76, 255, 0.282);
+    border-radius:5%;
+}
+
+.card2{
+    height: 50vh;
+    border:2px solid black;
+    border-radius:5%;
+}
+
+.card-img-top{
+    height: 50vh;
+}
+card-img-top:hover{
+    border:2px solid rgb(29, 30, 28);
+}
+.card-img-top1{
+    height: 50vh;
+    border:2px solid greenyellow;
+    border-radius:5%;
+
+}
+.image{
+    border: #666;
+    border-radius:5% ;
+    border-style: ridge;
+}
+.temperature{
+    border:2px;
+    border-color: black;
+    border-radius: 6%;
+    align-items: right;
+}
+.but {
+    background-color: #4CAF50;;
+     color: black;
+     font-size:20px;
+     border: 2px solid hwb(195 5% 8%);
+     border-radius: 10px;
+    }
+    .but:hover{
+       background-color: rgb(156, 197, 172);
+       color: white;
+    }
+    .hacker {
+        background-color: #4CAF50;;
+         color: black;
+         font-size:30px;
+         width:50%;
+         border: 2px solid hwb(195 5% 8%);
+         border-radius: 10%;
+        }
+        .hacker:hover{
+           background-color: rgb(156, 197, 172);
+           color: white;
+        }
